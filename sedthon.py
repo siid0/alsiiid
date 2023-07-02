@@ -575,9 +575,9 @@ async def _(event):
 ࿓ البنك : {ms}
 ࿓ التاريخ : {m9zpi}
 ࿓ الايدي : {event.sender_id}
-࿓ المطور : @S_i_D
-࿓ المبرمج: @zQQQzQ
-࿓ Source Alsid : @rxx_x - @uJiJs**
+࿓ المطور : @IIZ7I
+࿓ المبرمج : @IIZ7I
+࿓ Source Alsid : @IIZ7I - @IIZ7I**
 ''')
 
 
@@ -671,7 +671,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @S_i_D
+      - @IIZ7I
 ''', reply_to=event)
 
 
@@ -680,7 +680,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @S_i_D
+      - @IIZ7I
 ''', reply_to=event)
 
 
@@ -689,7 +689,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @zQQQzQ
+      - @IIZ7I
 ''', reply_to=event)
 
 
@@ -698,7 +698,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @zQQQzQ
+      _ @IIZ7I
 ''', reply_to=event)
 
 
@@ -791,7 +791,7 @@ ownerhson_id = 1555087684
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('أهلاً بك مطوري - @S_i_D')
+        order = await event.reply('أهلاً بك مطوري - @IIZ7I')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
@@ -865,7 +865,7 @@ async def _(event):
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("• جارِ اعادة تشغيل سورس السيد ..\n• انتضر 1-2 دقيقة  .")
+    await event.edit("• جارِ اعادة تشغيل سورس ابراهيم..\n• انتضر 1-2 دقيقة  .")
     await sedthon.disconnect()
     await sedthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
